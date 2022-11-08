@@ -1,0 +1,6 @@
+useDynLib(fstmr, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom("methods", "as")
+importFrom("stats", "approx", "optim", "rnorm", "uniroot", "var")
+importFrom(magrittr,"%>%")
+export(fstmr)
