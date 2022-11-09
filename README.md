@@ -1,6 +1,6 @@
 # argo_clustering_cokriging
 
-This repository houses code for https://arxiv.org/abs/2211.04012, "A multivariate functional-data mixture model for spatio-temporal data: inference and cokriging; Moritz Korte-Stapff, Drew Yarger, Stilian Stoev, and Tailen Hsing.
+This repository houses code for https://arxiv.org/abs/2211.04012, "A multivariate functional-data mixture model for spatio-temporal data: inference and cokriging"; Moritz Korte-Stapff, Drew Yarger, Stilian Stoev, and Tailen Hsing.
 
 
 There are two main components of our code. The first is the code that implements our methodology in a package, based on the folder "fstmr." Each file contains the relevant code for different parts of the methodology. There are three classes: one_var (for univariate data), mult_var_ind (for multivariate data with spatial independence), and mult_var_spat (our main methodology). The second part of the code is in paper/code, which contains the code for the data analysis, simulations, images, and processing results that are described in the paper. 
